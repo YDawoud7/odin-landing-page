@@ -113,3 +113,23 @@ section.hero {
 .information .info p {
   color: #565151
 }
+
+section.quote {
+  background-color: #E5E7Eb;
+
+  padding: 100px 400px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+blockquote {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+}
+.quote p {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 500;
+}
