@@ -82,3 +82,34 @@ section.hero {
 .hero .button {
   margin-top: 15px;
 }
+
+.information {
+  text-align: center;
+  padding: 50px 0;
+}
+.information > p {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+.information ul.infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  margin: 50px;
+}
+.information .info {
+  width: 170px;
+}
+.information .info .image-placeholder{
+  width: 170px;
+  height: 170px;
+  border: 4px solid #3882F6;
+  border-radius: 20px;
+  margin: 0 auto 10px;
+}
+.information .info p {
+  color: #565151
+}
